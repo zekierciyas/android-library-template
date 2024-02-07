@@ -48,7 +48,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.zekierciyas"
-                artifactId = "library_name"
+                artifactId = "android-library-template"
                 version = "1.0.0"
             }
         }
