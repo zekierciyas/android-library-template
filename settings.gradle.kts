@@ -1,11 +1,10 @@
-import java.net.URI
 
 pluginManagement {
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
-        maven { url = URI("https://jitpack.io") }
+        maven("https://www.jitpack.io")
     }
 }
 dependencyResolutionManagement {
@@ -13,7 +12,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = URI("https://jitpack.io") }
+        maven("https://www.jitpack.io")
     }
 }
 
